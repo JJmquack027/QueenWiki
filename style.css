@@ -1,0 +1,279 @@
+html body {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: #ed1b24;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 70px;
+    position: fixed;
+    z-index: 10px;
+    box-shadow: 0px 1px 0px 0px black;
+}
+
+#heading {
+    background: url(Images/Header.jpg) no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    display: block;
+}
+
+.navBox {
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #ed1b24;
+    transition-duration: 0.4s;
+    padding: 28px;
+}
+
+nav p {
+    margin-top: 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+}
+
+article {
+    margin-top: -170px;
+    background-color: #be1b23;
+    color: white;
+    padding: 20px;
+}
+
+aside {
+    background-color: #1B1212;
+    height: 500px;
+    margin-top: -60px;
+}
+
+h1 {
+    background: -webkit-linear-gradient(60deg, #ed1b24, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 50px;
+    width: 40%;
+}
+
+#upconcert {
+    background: -webkit-linear-gradient(60deg, #ed1b24, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 50px;
+    width: 40%;
+    margin-left: 100px;
+}
+
+#concert {
+    float: right;
+    height: 300px;
+}
+
+#duckimg {
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1B1212;
+    padding: 10px;
+    color: white;
+}
+
+#seventy {
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+}
+
+#smile {
+    float: right;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#ad {
+    float: left;
+    margin-right: 20px;
+    height: 175px;
+    border-radius: 4px;
+}
+
+#historyart {
+    height: 400px;
+    margin-top: 160px;
+}
+
+iframe {
+    padding: 20px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#duckhouse {
+    text-align: left;
+    margin-top: 40px;
+    float: right;
+}
+
+#ducktxt {
+    margin-left: 880px;
+    color: #f2452a;
+    margin-right: 50px;
+}
+
+#concertimg {
+    float: right;
+    width: 35%;
+    margin: 40px;
+    border-radius: 4px;
+}
+
+aside button {
+    background: -webkit-linear-gradient(60deg, #ed1b24, #FFB03A);
+    border: none;
+    margin-left: 180px;
+    padding: 20px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    padding: 40px;
+    width: 200px;
+}
+
+#finart {
+    margin-top: 0px;
+}
+
+hr {
+    width: 40%;
+    background-color: white;
+    border: none;
+    height: 5px;
+}
+
+form {
+    margin-left: 35%;
+}
+
+#histfoot {
+    background-color: #ed1b24;
+    padding: 10px;
+}
+
+#storebtn {
+    margin-left: 45%;
+    max-width: 110px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 5000px;
+}
+
+.suppart {
+    background-color: rgb(206, 206, 206);
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: solid #71797E 5px;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pfpimg {
+    float: right;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.pfpimg2 {
+    float: right;
+    height: 220px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#pfpimg3 {
+    float: right;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#suppartfin {
+    background-color: rgb(206, 206, 206);
+    width: 94%;
+    margin: 20px;
+    padding: 10px;
+    border: solid #71797E 5px;
+}
+
+#spot {
+    color: white;
+}
+
+#spotifylogo {
+    width: 100px;
+}
+
+#spotifylink {}
+
+#pageheading {
+    margin-top: -500px;
+}
+
+#flex-container2 {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+}
+
+#flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
